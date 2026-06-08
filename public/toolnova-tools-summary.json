@@ -1,0 +1,584 @@
+{
+  "tools": [
+    {
+      "slug": "merge-pdf",
+      "category": "pdf",
+      "name": {
+        "ar": "دمج PDF",
+        "en": "Merge PDF",
+        "zh": "合并PDF"
+      },
+      "quickAnswer": {
+        "ar": "أداة دمج PDF من ToolNova تساعدك على جمع عدة ملفات PDF في ملف واحد مجانًا من المتصفح، بدون تسجيل دخول، وبمعالجة محلية قدر الإمكان للحفاظ على الخصوصية.",
+        "en": "ToolNova Merge PDF helps you combine multiple PDF files into one for free in your browser, without sign-up, with local processing whenever possible.",
+        "zh": "ToolNova PDF 合并工具可在浏览器中免费将多个 PDF 文件合并为一个，无需注册，并尽可能在本地处理。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "split-pdf",
+      "category": "pdf",
+      "name": {
+        "ar": "تقسيم PDF",
+        "en": "Split PDF",
+        "zh": "拆分PDF"
+      },
+      "quickAnswer": {
+        "ar": "أداة تقسيم PDF تساعدك على استخراج صفحات محددة أو تقسيم ملف PDF إلى أجزاء أصغر مباشرة من المتصفح وبدون تسجيل دخول.",
+        "en": "Split PDF helps you extract selected pages or divide a PDF into smaller files directly in your browser without sign-up.",
+        "zh": "PDF 拆分工具可帮助你在浏览器中提取指定页面或将 PDF 拆分为较小文件，无需注册。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "compress-pdf",
+      "category": "pdf",
+      "name": {
+        "ar": "ضغط PDF",
+        "en": "Compress PDF",
+        "zh": "压缩PDF"
+      },
+      "quickAnswer": {
+        "ar": "أداة ضغط PDF تقلل حجم ملفات PDF لتسهيل إرسالها ورفعها، مع الحفاظ على جودة مناسبة قدر الإمكان.",
+        "en": "Compress PDF reduces PDF file size for easier sharing and uploading while keeping acceptable quality whenever possible.",
+        "zh": "PDF 压缩工具可减小 PDF 文件大小，便于分享和上传，并尽可能保持合适质量。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "rotate-pdf",
+      "category": "pdf",
+      "name": {
+        "ar": "تدوير PDF",
+        "en": "Rotate PDF",
+        "zh": "旋转PDF"
+      },
+      "quickAnswer": {
+        "ar": "أداة تدوير PDF تساعدك على تعديل اتجاه صفحات PDF المقلوبة أو الجانبية مباشرة من المتصفح وبدون تسجيل دخول.",
+        "en": "Rotate PDF helps you fix upside-down or sideways PDF pages directly in your browser without sign-up.",
+        "zh": "PDF 旋转工具可帮助你直接在浏览器中修正倒置或横向的 PDF 页面，无需注册。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "delete-pdf-pages",
+      "category": "pdf",
+      "name": {
+        "ar": "حذف صفحات PDF",
+        "en": "Delete PDF Pages",
+        "zh": "删除PDF页面"
+      },
+      "quickAnswer": {
+        "ar": "أداة حذف صفحات PDF تتيح إزالة الصفحات غير المطلوبة من ملف PDF وإنشاء نسخة جديدة أكثر ترتيبًا مباشرة من المتصفح.",
+        "en": "Delete PDF Pages lets you remove unwanted pages from a PDF and create a cleaner new version directly in your browser.",
+        "zh": "PDF 删除页面工具可直接在浏览器中从 PDF 中移除不需要的页面，并创建更整洁的新版本。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "organize-pdf",
+      "category": "pdf",
+      "name": {
+        "ar": "ترتيب صفحات PDF",
+        "en": "Organize PDF",
+        "zh": "整理PDF页面"
+      },
+      "quickAnswer": {
+        "ar": "أداة ترتيب صفحات PDF تساعدك على إعادة تنظيم صفحات المستند بالسحب والإفلات للحصول على ملف مرتب بالكامل من المتصفح.",
+        "en": "Reorder PDF Pages helps you rearrange document pages with drag and drop to create an organized file in your browser.",
+        "zh": "PDF 页面排序工具可通过拖放重新排列文档页面，在浏览器中生成有序文件。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "images-to-pdf",
+      "category": "pdf",
+      "name": {
+        "ar": "تحويل الصور إلى PDF",
+        "en": "Images to PDF",
+        "zh": "图片转PDF"
+      },
+      "quickAnswer": {
+        "ar": "أداة تحويل الصور إلى PDF تجمع صور JPG أو PNG في ملف PDF واحد مرتب يمكن إرساله أو طباعته بسهولة مباشرة من المتصفح.",
+        "en": "Images to PDF combines JPG or PNG images into one organized PDF file for easy sharing or printing directly in your browser.",
+        "zh": "图片转 PDF 工具可直接在浏览器中将 JPG 或 PNG 图片合并为一个有序 PDF 文件，便于分享或打印。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "pdf-to-jpg",
+      "category": "pdf",
+      "name": {
+        "ar": "تحويل PDF إلى JPG",
+        "en": "PDF to JPG",
+        "zh": "PDF转JPG"
+      },
+      "quickAnswer": {
+        "ar": "أداة تحويل PDF إلى JPG تحول صفحات PDF إلى صور JPG يمكن مشاركتها أو استخدامها في العروض والتصاميم مباشرة من المتصفح.",
+        "en": "PDF to JPG converts PDF pages into JPG images that can be shared or used in presentations and designs directly in your browser.",
+        "zh": "PDF 转 JPG 工具可直接在浏览器中将 PDF 页面转换为 JPG 图片，便于分享或用于演示和设计。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "protect-pdf",
+      "category": "pdf",
+      "name": {
+        "ar": "حماية PDF بكلمة مرور",
+        "en": "Protect PDF",
+        "zh": "PDF加密"
+      },
+      "quickAnswer": {
+        "ar": "أداة حماية ملفات PDF من ToolNova تتيح لك تشفير مستنداتك وإضافة كلمة مرور قوية لحمايتها مباشرة من المتصفح وبشكل آمن ومحلي.",
+        "en": "ToolNova Protect PDF lets you encrypt your documents and add strong password protection directly in your browser safely and locally.",
+        "zh": "ToolNova PDF 加密工具可让你在浏览器中安全、本地化地对文档进行加密并添加强密码保护。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "unlock-pdf",
+      "category": "pdf",
+      "name": {
+        "ar": "فك حماية PDF",
+        "en": "Unlock PDF",
+        "zh": "PDF解密"
+      },
+      "quickAnswer": {
+        "ar": "أداة فتح ملفات PDF تساعدك على إزالة كلمات المرور والقيود من مستنداتك المحمية لتسهيل تحريرها وطباعتها مباشرة من المتصفح.",
+        "en": "Unlock PDF helps you remove passwords and restrictions from your protected documents to make editing and printing easy directly in your browser.",
+        "zh": "PDF 解密工具可帮助你从受保护的文档中移除密码和限制，从而直接在浏览器中轻松进行编辑和打印。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "png-to-jpg",
+      "category": "image",
+      "name": {
+        "ar": "تحويل PNG إلى JPG",
+        "en": "PNG to JPG",
+        "zh": "PNG转JPG"
+      },
+      "quickAnswer": {
+        "ar": "أداة تحويل PNG إلى JPG تتيح لك تحويل تنسيق صور PNG ذات الحجم الكبير إلى JPG خفيفة الحجم مجانًا ومباشرة من المتصفح مع الحفاظ على الجودة.",
+        "en": "PNG to JPG converts PNG images into lighter JPG files for free and directly in your browser, maintaining great visual quality.",
+        "zh": "PNG 转 JPG 工具可在浏览器中免费直接将 PNG 图片转换为较轻的 JPG 文件，并保持极佳的视觉质量。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "jpg-to-png",
+      "category": "image",
+      "name": {
+        "ar": "تحويل JPG إلى PNG",
+        "en": "JPG to PNG",
+        "zh": "JPG转PNG"
+      },
+      "quickAnswer": {
+        "ar": "أداة تحويل JPG إلى PNG تساعدك على تحويل صور JPG الشائعة إلى تنسيق PNG عالي الجودة والداعم للشفافية مباشرة من المتصفح وبشكل مجاني.",
+        "en": "JPG to PNG helps you convert standard JPG images to high-quality PNG format supporting transparency directly in your browser for free.",
+        "zh": "JPG 转 PNG 工具可帮助你直接在浏览器中免费将标准 JPG 图片转换为支持透明度的高质量 PNG 格式。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "image-to-webp",
+      "category": "image",
+      "name": {
+        "ar": "تحويل الصور إلى WebP",
+        "en": "Image to WebP",
+        "zh": "图片转WebP"
+      },
+      "quickAnswer": {
+        "ar": "أداة تحويل الصور إلى WebP تحول صور JPG أو PNG إلى تنسيق WebP الحديث خفيف الوزن لتقليص الحجم بنسبة تصل لـ 80% مجاناً ومباشرة من المتصفح.",
+        "en": "Image to WebP converts JPG or PNG images into the modern lightweight WebP format to shrink sizes by up to 80% for free directly in the browser.",
+        "zh": "图片转 WebP 工具可在浏览器中免费直接将 JPG 或 PNG 图片转换为现代轻量级 WebP 格式，从而将大小缩减高达 80%。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "webp-to-image",
+      "category": "image",
+      "name": {
+        "ar": "تحويل WebP إلى صورة",
+        "en": "WebP to Image",
+        "zh": "WebP转图片"
+      },
+      "quickAnswer": {
+        "ar": "أداة تحويل WebP إلى صور تتيح لك تحويل صور WebP الحديثة إلى تنسيق JPG أو PNG الكلاسيكي المتوافق مع كافة البرامج مباشرة من المتصفح.",
+        "en": "WebP to Image lets you convert modern WebP images back to classic JPG or PNG formats compatible with all software directly in your browser.",
+        "zh": "WebP 转图片工具可让你直接在浏览器中将现代 WebP 图片转换回与所有软件兼容的经典 JPG 或 PNG 格式。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "compress-image",
+      "category": "image",
+      "name": {
+        "ar": "ضغط الصور",
+        "en": "Compress Image",
+        "zh": "压缩图片"
+      },
+      "quickAnswer": {
+        "ar": "أداة ضغط الصور تقلص حجم ملفات الصور JPG وPNG وWebP لنسب ضخمة لتسهيل الرفع والإرسال مع إمكانية التحكم الكامل في الجودة مباشرة من المتصفح.",
+        "en": "Compress Image reduces the file sizes of JPG, PNG, and WebP images by massive percentages for easy uploading and emailing with total quality control directly in your browser.",
+        "zh": "图片压缩工具可直接在浏览器中将 JPG、PNG 和 WebP 图片的文件大小压缩很大比例，以便于上传和发送电子邮件，并具有完全的质量控制。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "resize-image",
+      "category": "image",
+      "name": {
+        "ar": "تغيير حجم الصور",
+        "en": "Resize Image",
+        "zh": "调整图片大小"
+      },
+      "quickAnswer": {
+        "ar": "أداة تغيير حجم الصور تتيح لك تعديل أبعاد الطول والعرض لصورك بدقة بكسل محددة أو نسبة مئوية مع الحفاظ على التناسب أو بدونه مباشرة من المتصفح.",
+        "en": "Resize Image lets you adjust the width and height dimensions of your photos with precise pixel values or percentages with or without ratio locks directly in your browser.",
+        "zh": "图片裁剪尺寸工具可让你直接在浏览器中通过精确的像素值或百分比（带或不带比例锁定）调整照片的宽度和高度尺寸。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "crop-image",
+      "category": "image",
+      "name": {
+        "ar": "قص الصور",
+        "en": "Crop Image",
+        "zh": "裁剪图片"
+      },
+      "quickAnswer": {
+        "ar": "أداة قص الصور تمكنك من قص الأطراف غير المرغوبة والتركيز على أجزاء محددة من صورك مع توفير نسب قص جاهزة وتفاعلية مباشرة من المتصفح.",
+        "en": "Crop Image enables you to trim unwanted borders and focus on specific parts of your photos with interactive pre-set aspect ratios directly in your browser.",
+        "zh": "图片裁剪工具可让你直接在浏览器中通过交互式预设纵横比修剪不需要的边框并专注于照片的特定部分。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "rotate-image",
+      "category": "image",
+      "name": {
+        "ar": "تدوير الصور",
+        "en": "Rotate Image",
+        "zh": "旋转图片"
+      },
+      "quickAnswer": {
+        "ar": "أداة تدوير الصور تتيح لك تعديل اتجاه الصور المقلوبة أو الجانبية بزوايا 90 أو 180 درجة وتعديل زاوية العرض مباشرة من المتصفح وبشكل مجاني.",
+        "en": "Rotate Image lets you correct the orientation of upside-down or sideways photos by 90 or 180 degrees directly in your browser for free.",
+        "zh": "图片旋转工具可让你直接在浏览器中免费将倒置或横向的照片方向修正 90 或 180 度。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "extract-images-from-pdf",
+      "category": "image",
+      "name": {
+        "ar": "استخراج الصور من PDF",
+        "en": "Extract Images from PDF",
+        "zh": "从PDF提取图片"
+      },
+      "quickAnswer": {
+        "ar": "أداة استخراج الصور من PDF تتيح لك استخلاص وحفظ جميع الصور المضمنة والرسوم داخل ملف PDF بجودتها الأصلية وتنزيلها كملف واحد مباشرة من المتصفح.",
+        "en": "Extract Images from PDF lets you extract and save all embedded images from a PDF file in their original quality directly in your browser.",
+        "zh": "提取 PDF 图片工具可让你直接在浏览器中提取并以原始质量保存 PDF 文件中的所有嵌入图片。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "qr-link",
+      "category": "qr",
+      "name": {
+        "ar": "QR لرابط",
+        "en": "QR for Link",
+        "zh": "链接二维码"
+      },
+      "quickAnswer": {
+        "ar": "أداة إنشاء رمز QR للروابط تساعدك على تحويل أي عنوان URL لموقع أو صفحة هبوط إلى رمز استجابة سريعة قابل للمسح مباشرة وتنزيله بجودة فائقة من المتصفح.",
+        "en": "QR Code Generator for Links converts any website URL or landing page into a scannable QR code instantly, allowing high-quality downloads from your browser.",
+        "zh": "链接二维码生成器可立即将任何网站 URL 或落地页转换为可扫描的二维码，并支持从浏览器进行高质量下载。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "qr-text",
+      "category": "qr",
+      "name": {
+        "ar": "QR لنص",
+        "en": "QR for Text",
+        "zh": "文本二维码"
+      },
+      "quickAnswer": {
+        "ar": "أداة إنشاء رمز QR للنصوص تتيح لك تحويل أي رسالة، ملاحظة، أو نص عادي إلى رمز استجابة سريعة قابل للمسح مباشرة مجاناً ومحلياً من المتصفح.",
+        "en": "QR Code Generator for Text lets you convert any message, note, or plain text into a scannable QR code instantly for free and locally inside the browser.",
+        "zh": "文本二维码生成器可让你在浏览器中免费且本地化地立即将任何消息、便签或纯文本转换为可扫描的二维码。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "qr-whatsapp",
+      "category": "qr",
+      "name": {
+        "ar": "QR لواتساب",
+        "en": "QR for WhatsApp",
+        "zh": "WhatsApp二维码"
+      },
+      "quickAnswer": {
+        "ar": "أداة إنشاء رمز QR للواتساب تسهل على عملائك مراسلتك على واتساب فوراً بمسح الرمز دون الحاجة لحفظ رقمك على هاتفهم، وتعمل محلياً من المتصفح.",
+        "en": "WhatsApp QR Code Generator makes it easy for clients to chat with you instantly by scanning a code without saving your number, working locally in your browser.",
+        "zh": "WhatsApp 二维码生成器让客户只需扫描二维码即可立即与你聊天，无需保存你的号码，可在浏览器中本地运行。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "qr-wifi",
+      "category": "qr",
+      "name": {
+        "ar": "QR لشبكة Wi-Fi",
+        "en": "QR for Wi-Fi",
+        "zh": "Wi-Fi二维码"
+      },
+      "quickAnswer": {
+        "ar": "أداة إنشاء رمز QR لشبكات الواي فاي تساعدك على مشاركة إنترنت منزلك أو مقهاك بمسح الرمز ضوئياً للاتصال بالشبكة دون كتابة كلمة المرور يدوياً.",
+        "en": "Wi-Fi QR Code Generator helps you share your home or cafe internet by scanning a code to connect to the network without typing the password manually.",
+        "zh": "Wi-Fi 二维码生成器可帮助你通过扫描二维码分享家庭或咖啡馆的网络来连接，无需手动输入密码。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "barcode-generator",
+      "category": "qr",
+      "name": {
+        "ar": "إنشاء باركود",
+        "en": "Barcode Generator",
+        "zh": "条形码生成器"
+      },
+      "quickAnswer": {
+        "ar": "أداة توليد الباركود تتيح لك إنشاء ملصقات باركود قياسية لمختلف المنتجات والطرود بصيغ كود متعددة وتنزيلها بجودة طباعة عالية مباشرة من المتصفح.",
+        "en": "Barcode Generator lets you create standard barcode labels for products and packages in multiple formats and download them in print-ready quality directly in your browser.",
+        "zh": "条形码生成器可让你直接在浏览器中为产品和包裹创建多种格式的标准条形码标签，并以适合打印的高质量下载。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "password-generator",
+      "category": "daily",
+      "name": {
+        "ar": "توليد كلمات مرور",
+        "en": "Password Generator",
+        "zh": "密码生成器"
+      },
+      "quickAnswer": {
+        "ar": "أداة توليد كلمات المرور تنشئ لك كلمات سر قوية للغاية، عشوائية بالكامل، وغير قابلة للتخمين لحماية حساباتك وأمنك الرقمي مباشرة من المتصفح.",
+        "en": "Password Generator creates highly secure, completely random, and unguessable passwords to protect your accounts and digital security directly in your browser.",
+        "zh": "密码生成器可直接在浏览器中创建高度安全、完全随机且无法猜测的密码，以保护你的账户和数字安全。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "word-counter",
+      "category": "daily",
+      "name": {
+        "ar": "عداد الكلمات",
+        "en": "Word Counter",
+        "zh": "字数统计"
+      },
+      "quickAnswer": {
+        "ar": "أداة عد الكلمات تمكنك من حساب عدد الكلمات، الأحرف، الفقرات، والأسطر في نصوصك بدقة متناهية وفوراً أونلاين ومباشرة من المتصفح.",
+        "en": "Word Counter enables you to calculate the count of words, characters, paragraphs, and lines in your text with absolute accuracy instantly in your browser.",
+        "zh": "字数计数器可让你在浏览器中立即以绝对准确度计算文本中的字数、字符数、段落数和行数。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "base64-converter",
+      "category": "daily",
+      "name": {
+        "ar": "محول Base64",
+        "en": "Base64 Converter",
+        "zh": "Base64转换器"
+      },
+      "quickAnswer": {
+        "ar": "أداة تحويل وفك تشفير Base64 تساعدك على تحويل النصوص العادية إلى ترميز Base64 وفك تشفيرها فوراً وبأمان كامل مباشرة من المتصفح.",
+        "en": "Base64 Encoder/Decoder helps you convert plain text to Base64 encoding and decode it back instantly and safely directly in your browser.",
+        "zh": "Base64 编码/解码器可帮助你在浏览器中直接即时且安全地将纯文本转换为 Base64 编码并进行反向解码。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "url-encoder-decoder",
+      "category": "daily",
+      "name": {
+        "ar": "ترميز/فك ترميز URL",
+        "en": "URL Encoder/Decoder",
+        "zh": "URL编码/解码"
+      },
+      "quickAnswer": {
+        "ar": "أداة ترميز وفك ترميز URL تساعدك على معالجة روابط الويب وتحويل الرموز الخاصة لتكون متوافقة وآمنة للقراءة من متصفحات الويب مباشرة من المتصفح.",
+        "en": "URL Encoder/Decoder helps you process web links and convert special characters to be safe and compatible with web browsers directly in your browser.",
+        "zh": "URL 编码/解码器可帮助你处理网页链接并将特殊字符转换为直接在浏览器中与网页浏览器安全且兼容的格式。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    },
+    {
+      "slug": "text-cleaner",
+      "category": "daily",
+      "name": {
+        "ar": "تنظيف النصوص",
+        "en": "Text Cleaner",
+        "zh": "文本清理"
+      },
+      "quickAnswer": {
+        "ar": "أداة تنظيف النصوص تساعدك على إزالة الفراغات الزائدة، الأسطر الفارغة، والرموز غير المرغوب فيها من نصوصك وتنسيقها بشكل مرتب مباشرة من المتصفح.",
+        "en": "Text Cleaner helps you remove extra spaces, empty lines, and unwanted characters from your text to format it neatly directly in your browser.",
+        "zh": "文本清洗工具可帮助你直接在浏览器中从文本中移除多余空格、空行和不需要的字符，从而进行整洁的格式化。"
+      },
+      "capabilities": {
+        "free": true,
+        "noRegistration": true,
+        "browserBased": true,
+        "mobileFriendly": true
+      }
+    }
+  ]
+}
