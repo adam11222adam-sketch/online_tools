@@ -12,43 +12,41 @@ export interface Tool {
   geo: ToolGeo;
 }
 
-const rawTools: Omit<Tool, 'geo'>[] = [
+export const tools = [
   // PDF Tools
-  { slug: 'merge-pdf', category: 'pdf', icon: 'FilePlus2', acceptedFormats: ['.pdf'], maxFileSize: '50MB', popular: true },
-  { slug: 'split-pdf', category: 'pdf', icon: 'Scissors', acceptedFormats: ['.pdf'], maxFileSize: '50MB', popular: true },
-  { slug: 'compress-pdf', category: 'pdf', icon: 'FileDown', acceptedFormats: ['.pdf'], maxFileSize: '50MB', popular: true },
-  { slug: 'rotate-pdf', category: 'pdf', icon: 'RotateCw', acceptedFormats: ['.pdf'], maxFileSize: '50MB' },
-  { slug: 'delete-pdf-pages', category: 'pdf', icon: 'FileX2', acceptedFormats: ['.pdf'], maxFileSize: '50MB' },
-  { slug: 'organize-pdf', category: 'pdf', icon: 'ArrowUpDown', acceptedFormats: ['.pdf'], maxFileSize: '50MB' },
-  { slug: 'images-to-pdf', category: 'pdf', icon: 'ImagePlus', acceptedFormats: ['.jpg', '.jpeg', '.png', '.webp'], maxFileSize: '20MB', popular: true },
-  { slug: 'pdf-to-jpg', category: 'pdf', icon: 'Image', acceptedFormats: ['.pdf'], maxFileSize: '50MB', popular: true },
-  { slug: 'protect-pdf', category: 'pdf', icon: 'Lock', acceptedFormats: ['.pdf'], maxFileSize: '50MB' },
-  { slug: 'unlock-pdf', category: 'pdf', icon: 'Unlock', acceptedFormats: ['.pdf'], maxFileSize: '50MB' },
+  { slug: 'merge-pdf', category: 'pdf' as const, icon: 'FilePlus2', acceptedFormats: ['.pdf'], maxFileSize: '50MB', popular: true },
+  { slug: 'split-pdf', category: 'pdf' as const, icon: 'Scissors', acceptedFormats: ['.pdf'], maxFileSize: '50MB', popular: true },
+  { slug: 'compress-pdf', category: 'pdf' as const, icon: 'FileDown', acceptedFormats: ['.pdf'], maxFileSize: '50MB', popular: true },
+  { slug: 'rotate-pdf', category: 'pdf' as const, icon: 'RotateCw', acceptedFormats: ['.pdf'], maxFileSize: '50MB' },
+  { slug: 'delete-pdf-pages', category: 'pdf' as const, icon: 'FileX2', acceptedFormats: ['.pdf'], maxFileSize: '50MB' },
+  { slug: 'organize-pdf', category: 'pdf' as const, icon: 'ArrowUpDown', acceptedFormats: ['.pdf'], maxFileSize: '50MB' },
+  { slug: 'images-to-pdf', category: 'pdf' as const, icon: 'ImagePlus', acceptedFormats: ['.jpg', '.jpeg', '.png', '.webp'], maxFileSize: '20MB', popular: true },
+  { slug: 'pdf-to-jpg', category: 'pdf' as const, icon: 'Image', acceptedFormats: ['.pdf'], maxFileSize: '50MB', popular: true },
+  { slug: 'protect-pdf', category: 'pdf' as const, icon: 'Lock', acceptedFormats: ['.pdf'], maxFileSize: '50MB' },
+  { slug: 'unlock-pdf', category: 'pdf' as const, icon: 'Unlock', acceptedFormats: ['.pdf'], maxFileSize: '50MB' },
   // Image Tools
-  { slug: 'png-to-jpg', category: 'image', icon: 'FileImage', acceptedFormats: ['.png'], maxFileSize: '20MB', popular: true },
-  { slug: 'jpg-to-png', category: 'image', icon: 'FileImage', acceptedFormats: ['.jpg', '.jpeg'], maxFileSize: '20MB' },
-  { slug: 'image-to-webp', category: 'image', icon: 'FileImage', acceptedFormats: ['.jpg', '.jpeg', '.png'], maxFileSize: '20MB' },
-  { slug: 'webp-to-image', category: 'image', icon: 'FileImage', acceptedFormats: ['.webp'], maxFileSize: '20MB' },
-  { slug: 'compress-image', category: 'image', icon: 'Minimize2', acceptedFormats: ['.jpg', '.jpeg', '.png', '.webp'], maxFileSize: '20MB', popular: true },
-  { slug: 'resize-image', category: 'image', icon: 'Maximize2', acceptedFormats: ['.jpg', '.jpeg', '.png', '.webp'], maxFileSize: '20MB' },
-  { slug: 'crop-image', category: 'image', icon: 'Crop', acceptedFormats: ['.jpg', '.jpeg', '.png', '.webp'], maxFileSize: '20MB' },
-  { slug: 'rotate-image', category: 'image', icon: 'RotateCcw', acceptedFormats: ['.jpg', '.jpeg', '.png', '.webp'], maxFileSize: '20MB' },
-  { slug: 'extract-images-from-pdf', category: 'image', icon: 'Images', acceptedFormats: ['.pdf'], maxFileSize: '50MB' },
+  { slug: 'png-to-jpg', category: 'image' as const, icon: 'FileImage', acceptedFormats: ['.png'], maxFileSize: '20MB', popular: true },
+  { slug: 'jpg-to-png', category: 'image' as const, icon: 'FileImage', acceptedFormats: ['.jpg', '.jpeg'], maxFileSize: '20MB' },
+  { slug: 'image-to-webp', category: 'image' as const, icon: 'FileImage', acceptedFormats: ['.jpg', '.jpeg', '.png'], maxFileSize: '20MB' },
+  { slug: 'webp-to-image', category: 'image' as const, icon: 'FileImage', acceptedFormats: ['.webp'], maxFileSize: '20MB' },
+  { slug: 'compress-image', category: 'image' as const, icon: 'Minimize2', acceptedFormats: ['.jpg', '.jpeg', '.png', '.webp'], maxFileSize: '20MB', popular: true },
+  { slug: 'resize-image', category: 'image' as const, icon: 'Maximize2', acceptedFormats: ['.jpg', '.jpeg', '.png', '.webp'], maxFileSize: '20MB' },
+  { slug: 'crop-image', category: 'image' as const, icon: 'Crop', acceptedFormats: ['.jpg', '.jpeg', '.png', '.webp'], maxFileSize: '20MB' },
+  { slug: 'rotate-image', category: 'image' as const, icon: 'RotateCcw', acceptedFormats: ['.jpg', '.jpeg', '.png', '.webp'], maxFileSize: '20MB' },
+  { slug: 'extract-images-from-pdf', category: 'image' as const, icon: 'Images', acceptedFormats: ['.pdf'], maxFileSize: '50MB' },
   // QR & Barcode Tools
-  { slug: 'qr-link', category: 'qr', icon: 'QrCode', popular: true },
-  { slug: 'qr-text', category: 'qr', icon: 'QrCode' },
-  { slug: 'qr-whatsapp', category: 'qr', icon: 'MessageCircle' },
-  { slug: 'qr-wifi', category: 'qr', icon: 'Wifi' },
-  { slug: 'barcode-generator', category: 'qr', icon: 'Barcode' },
+  { slug: 'qr-link', category: 'qr' as const, icon: 'QrCode', popular: true },
+  { slug: 'qr-text', category: 'qr' as const, icon: 'QrCode' },
+  { slug: 'qr-whatsapp', category: 'qr' as const, icon: 'MessageCircle' },
+  { slug: 'qr-wifi', category: 'qr' as const, icon: 'Wifi' },
+  { slug: 'barcode-generator', category: 'qr' as const, icon: 'Barcode' },
   // Daily Tools
-  { slug: 'password-generator', category: 'daily', icon: 'KeyRound', popular: true },
-  { slug: 'word-counter', category: 'daily', icon: 'Hash' },
-  { slug: 'base64-converter', category: 'daily', icon: 'Binary' },
-  { slug: 'url-encoder-decoder', category: 'daily', icon: 'Link2' },
-  { slug: 'text-cleaner', category: 'daily', icon: 'Eraser' },
-];
-
-export const tools: Tool[] = rawTools.map(tool => {
+  { slug: 'password-generator', category: 'daily' as const, icon: 'KeyRound', popular: true },
+  { slug: 'word-counter', category: 'daily' as const, icon: 'Hash' },
+  { slug: 'base64-converter', category: 'daily' as const, icon: 'Binary' },
+  { slug: 'url-encoder-decoder', category: 'daily' as const, icon: 'Link2' },
+  { slug: 'text-cleaner', category: 'daily' as const, icon: 'Eraser' },
+].map(tool => {
   const g = geoData[tool.slug];
   if (!g) {
     throw new Error(`Missing geo data for tool: ${tool.slug}`);
@@ -57,7 +55,7 @@ export const tools: Tool[] = rawTools.map(tool => {
     ...tool,
     geo: g
   };
-});
+}) satisfies Tool[];
 
 export function getToolsByCategory(category: ToolCategory): Tool[] {
   return tools.filter((t) => t.category === category);
