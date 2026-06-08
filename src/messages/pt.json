@@ -55,7 +55,8 @@
     "protect": "Proteger",
     "unlock": "Desbloquear",
     "resize": "Redimensionar",
-    "crop": "Cortar"
+    "crop": "Cortar",
+    "useTool": "Usar ferramenta"
   },
   "nav": {
     "home": "Início",

@@ -55,7 +55,8 @@
     "protect": "Schützen",
     "unlock": "Entsperren",
     "resize": "Größe ändern",
-    "crop": "Zuschneiden"
+    "crop": "Zuschneiden",
+    "useTool": "Tool verwenden"
   },
   "nav": {
     "home": "Startseite",

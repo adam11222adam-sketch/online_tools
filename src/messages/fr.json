@@ -55,7 +55,8 @@
     "protect": "Protéger",
     "unlock": "Déverrouiller",
     "resize": "Redimensionner",
-    "crop": "Rogner"
+    "crop": "Rogner",
+    "useTool": "Utiliser l'outil"
   },
   "nav": {
     "home": "Accueil",

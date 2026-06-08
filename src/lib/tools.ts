@@ -12,7 +12,7 @@ export interface Tool {
   geo: ToolGeo;
 }
 
-export const tools: Tool[] = [
+const rawTools: Omit<Tool, 'geo'>[] = [
   // PDF Tools
   { slug: 'merge-pdf', category: 'pdf', icon: 'FilePlus2', acceptedFormats: ['.pdf'], maxFileSize: '50MB', popular: true },
   { slug: 'split-pdf', category: 'pdf', icon: 'Scissors', acceptedFormats: ['.pdf'], maxFileSize: '50MB', popular: true },
@@ -46,7 +46,9 @@ export const tools: Tool[] = [
   { slug: 'base64-converter', category: 'daily', icon: 'Binary' },
   { slug: 'url-encoder-decoder', category: 'daily', icon: 'Link2' },
   { slug: 'text-cleaner', category: 'daily', icon: 'Eraser' },
-].map(tool => {
+];
+
+export const tools: Tool[] = rawTools.map(tool => {
   const g = geoData[tool.slug];
   if (!g) {
     throw new Error(`Missing geo data for tool: ${tool.slug}`);

@@ -55,7 +55,8 @@
     "protect": "保护",
     "unlock": "解锁",
     "resize": "调整大小",
-    "crop": "裁剪"
+    "crop": "裁剪",
+    "useTool": "使用工具"
   },
   "nav": {
     "home": "首页",

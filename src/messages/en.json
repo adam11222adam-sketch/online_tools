@@ -55,7 +55,8 @@
     "protect": "Protect",
     "unlock": "Unlock",
     "resize": "Resize",
-    "crop": "Crop"
+    "crop": "Crop",
+    "useTool": "Use Tool"
   },
   "nav": {
     "home": "Home",

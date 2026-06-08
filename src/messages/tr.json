@@ -55,7 +55,8 @@
     "protect": "Şifrele",
     "unlock": "Kilit Aç",
     "resize": "Yeniden Boyutlandır",
-    "crop": "Kırp"
+    "crop": "Kırp",
+    "useTool": "Aracı Kullan"
   },
   "nav": {
     "home": "Anasayfa",
